@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--
+      Portafolio profesional de "SARA GOMEZ – Servicios Generales"
+      Estructura básica del documento HTML
+      - Metadatos para SEO y responsive
+      - Enlaces a tipografía y hojas de estilo
+    -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SARA GOMEZ – Servicios Generales</title>
+
+    <!-- Descripción para buscadores -->
+    <meta
+      name="description"
+      content="Portafolio profesional de SARA GOMEZ, servicios generales con más de 20 años de experiencia en lavandería y cuidado de prendas."
+    />
+
+    <!-- Tipografía moderna (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!--
+      Header / Navegación principal
+      - Logo de texto
+      - Navegación simple con anclas a secciones
+    -->
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">SARA GOMEZ</a>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <ul>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <!--
+        Sección: Presentación
+        - Título, subtítulo y breve descripción
+        - Avatar profesional (imagen IA simulada en /img/avatar.jpg)
+      -->
+      <section id="presentacion" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <h1>Servicios Generales <span class="accent">SARA GOMEZ</span></h1>
+            <p class="subtitle">
+              Profesionales en lavandería y cuidado de prendas con más de 20 años de
+              experiencia. Compromiso, responsabilidad y atención al detalle para
+              garantizar calidad y satisfacción del cliente.
+            </p>
+            <a class="btn btn-primary" href="#contacto">Solicitar información</a>
+          </div>
+          <div class="hero-media">
+            <!-- Imagen representativa (avatar profesional libre) -->
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYwIiBoZWlnaHQ9IjM2MCIgdmlld0JveD0iMCAwIDM2MCAzNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iMzYwIiBmaWxsPSIjRjZGOEZGIi8+CjxjaXJjbGUgY3g9IjE4MCIgY3k9IjE0MCIgcj0iNjAiIGZpbGw9IiM0QjU1NjMiLz4KPHBhdGggZD0iTTEyMCAyNDBDMTIwIDIxMC4zIDE0MC4zIDE5MCAxNzAgMTkwSDE5MEMyMTkuNyAxOTAgMjQwIDIxMC4zIDI0MCAyNDBWMzAwSDEyMFYyNDBaIiBmaWxsPSIjNEI1NTYzIi8+CjxjaXJjbGUgY3g9IjE4MCIgY3k9IjEyMCIgcj0iMzAiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+"
+              alt="Avatar profesional de SARA GOMEZ"
+              class="avatar"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--
+        Sección: Experiencia Laboral
+        - Lista de experiencias con años y responsabilidades
+      -->
+      <section id="experiencia" class="section">
+        <div class="container">
+          <h2 class="section-title">Experiencia Laboral</h2>
+          <div class="experience-list">
+            <article class="experience-card">
+              <h3>Lavandería Richard Sport</h3>
+              <p class="meta">8 años</p>
+              <p>
+                Encargada de lavado y planchado especializado en ropa deportiva,
+                control de calidad de prendas y atención directa a clientes.
+              </p>
+            </article>
+            <article class="experience-card">
+              <h3>Lavandería Pachet</h3>
+              <p class="meta">2 años</p>
+              <p>
+                Responsable de recepción de prendas, clasificación, manejo de insumos y
+                entrega puntual del servicio.
+              </p>
+            </article>
+            <article class="experience-card">
+              <h3>Lavandería Lavarapid</h3>
+              <p class="meta">5 años</p>
+              <p>
+                Operación de maquinaria industrial, supervisión de procesos de lavado y
+                capacitación a personal nuevo.
+              </p>
+            </article>
+            <article class="experience-card">
+              <h3>Otras lavanderías</h3>
+              <p class="meta">5 años</p>
+              <p>
+                Apoyo en funciones operativas y administrativas, fortaleciendo la
+                adaptación a diferentes entornos de trabajo.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--
+        Sección: Habilidades Clave
+        - Tarjetas con puntos fuertes
+      -->
+      <section id="habilidades" class="section alt">
+        <div class="container">
+          <h2 class="section-title">Habilidades Clave</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Manejo de maquinaria</h3>
+              <p>
+                Experiencia con equipos industriales y productos especializados de
+                lavandería.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Cuidado de telas</h3>
+              <p>
+                Conocimiento en tipos de telas y procesos de cuidado para preservar
+                calidad.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Atención al cliente</h3>
+              <p>
+                Trato cordial, comunicación clara y seguimiento para asegurar
+                satisfacción.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Organización y tiempos</h3>
+              <p>
+                Planificación y cumplimiento de entregas con eficiencia operativa.
+              </p>
+            </div>
+            <div class="skill-card">
+              <h3>Trabajo en equipo</h3>
+              <p>
+                Liderazgo en operaciones y capacitación a nuevos integrantes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--
+        Sección: Contacto
+        - Formulario con nombre, correo, mensaje
+        - Enlaces simulados a redes sociales
+      -->
+      <section id="contacto" class="section">
+        <div class="container contact-grid">
+          <div class="contact-text">
+            <h2 class="section-title">Contacto</h2>
+            <p>
+              ¿Necesitas un servicio profesional de lavandería o cuidado de prendas?
+              Escríbeme y con gusto responderé a la brevedad.
+            </p>
+            <ul class="social-list" aria-label="Redes sociales">
+              <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+              <li><a href="#" aria-label="GitHub">GitHub</a></li>
+              <li><a href="#" aria-label="X (Twitter)">X</a></li>
+            </ul>
+          </div>
+          <form id="contact-form" class="contact-form" novalidate>
+            <!-- Campo: Nombre -->
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+
+            <!-- Campo: Correo -->
+            <label for="correo">Correo</label>
+            <input id="correo" name="correo" type="email" placeholder="tu@email.com" required />
+
+            <!-- Campo: Mensaje -->
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu necesidad" required></textarea>
+
+            <!-- Botón de envío -->
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            <p class="form-hint">Este es un formulario de demostración. No envía datos reales.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer con derechos -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 SARA GOMEZ – Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="/js/script.js" defer></script>
+  </body>
+  </html>
+
